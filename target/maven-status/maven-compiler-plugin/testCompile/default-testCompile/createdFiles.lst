@@ -1,0 +1,10 @@
+TestCase_Automation\TestCase.class
+TestCase_Automation\BrowserWebDriver.class
+TestCase_Automation\Page.class
+TestCase_Automation\Image.class
+TestCase_Automation\Users.class
+TestCase_Automation\Locators.class
+TestCase_Automation\Vars.class
+TestCase_Automation\Link.class
+TestCase_Automation\DataProviders.class
+TestCase_Automation\Logging.class

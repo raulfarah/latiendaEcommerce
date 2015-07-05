@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestCase_Automation.TestCase
+-------------------------------------------------------------------------------
+Tests run: 33, Failures: 1, Errors: 0, Skipped: 32, Time elapsed: 156.733 sec <<< FAILURE!
+beforeClass(TestCase_Automation.TestCase)  Time elapsed: 0 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'CrazyGuy-PC', ip: '169.254.98.206', os.name: 'Windows Vista', os.arch: 'amd64', os.version: '6.0', java.version: '1.8.0_45'
+Driver info: driver.version: BrowserWebDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:275)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:116)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:220)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:215)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:124)
+	at TestCase_Automation.BrowserWebDriver.<init>(BrowserWebDriver.java:83)
+	at TestCase_Automation.TestCase.beforeClass(TestCase.java:79)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:120)
+	... 41 more
